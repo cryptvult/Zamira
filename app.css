@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(98, 145, 130);
+    color: black;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: #23666fb5;
+}
+
+.flex-container div{
+    background-color: #f1f1f1;
+    width: 500px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.flex-item-left {
+    background-color: #f1f1f1;
+    padding: 10px;
+    flex: 50%;
+  }
+  
+  .flex-item-right {
+    background-color: dodgerblue;
+    padding: 10px;
+    flex: 50%;
+
+.register{
+    background-color: antiquewhite;
+    color: rgb(172, 142, 97);
+}
+
+.btn{
+    padding: 0.5rem 1rem;
+    background-color: #164248b5;
+    box-shadow: 1px 2px #c2baad7a;
+    border-radius: 9px;
+    color: white;
+}
+
+.ent{
+    padding: 3px 2rem;
+    color: rgb(31 20 4);
+    background-color: bisque;
+    box-shadow: 2px 3px #1e1102;
+    border-radius: 8rem;
+}
